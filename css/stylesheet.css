@@ -4,3 +4,8 @@ body {
 h1 {
     color:darkblue;
 }
+
+nav{
+    background-color: lightblue;
+    text-align: center;
+}
