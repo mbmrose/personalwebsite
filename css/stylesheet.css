@@ -1,8 +1,12 @@
 body {
     background-color:gainsboro;
 }
-h1 {
+h1{
     color:darkblue;
+}
+
+.fancy{
+    font-family: 'Montserrat', sans-serif !important;
 }
 
 nav{
