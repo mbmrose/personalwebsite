@@ -10,6 +10,16 @@ h1{
     background-color: #A6CAD4;
 }
 
+.p1{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.p2{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
 .fancy{
     font-family: 'Montserrat', sans-serif;
     color: #334259;
