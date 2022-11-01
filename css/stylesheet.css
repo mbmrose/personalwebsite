@@ -40,18 +40,53 @@ footer{
     background-color: #A6CAD4;
 }
 
-.l1{
-    list-style: none;
-}
 
 ul{
     display: grid;
+}
+
+.l1{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 2;
+}
+
+.border1{
+    border-bottom:cornsilk solid 2px;
+}
+
+.grid1{
+    display: grid;
+    grid-column: 2 / 2;
+    align-items: left;
+}
+
+
+.list1{
+    list-style: none;
+    flex-direction: column;
+}
+
+.l1{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2;
+    display: flex;
+    flex-direction: column;
 }
 
 @media (min-width: 600px){
     .list1{
         list-style: none;
         justify-content: center;
-        flex-direction: column;
+        flex-direction: row;
+    }
+    .l1{
+        list-style: none;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 2;
     }
 }
