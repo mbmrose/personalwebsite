@@ -1,6 +1,7 @@
 body {
     background-color: #EDDDD0;
 }
+
 h1{
     color:darkblue;
 }
@@ -26,9 +27,8 @@ h1{
 }
 
 .list1{
-    list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 li{
@@ -42,4 +42,16 @@ footer{
 
 .l1{
     list-style: none;
+}
+
+ul{
+    display: grid;
+}
+
+@media (min-width: 600px){
+    .list1{
+        list-style: none;
+        justify-content: center;
+        flex-direction: column;
+    }
 }
