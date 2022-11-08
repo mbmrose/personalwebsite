@@ -1,0 +1,1 @@
+let courselist = {code: "ACIT 1620", coursename: "Fundimental Web Technologies"}
